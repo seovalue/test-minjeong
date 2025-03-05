@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.timer-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.stop-button, .reset-button {
+  background-color: #ff69b4;
+}
+
+.stop-button:hover, .reset-button:hover {
+  background-color: #ff1493;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
 }
